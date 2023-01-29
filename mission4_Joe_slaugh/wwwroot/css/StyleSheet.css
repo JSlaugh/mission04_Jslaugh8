@@ -1,0 +1,16 @@
+﻿img {
+    max-width:80%;
+}
+
+body {
+    background-color:blanchedalmond !important;
+    width: 80%;
+    margin:auto !important;
+}
+form{
+    display:grid;
+}
+
+button{
+    margin-top:.4rem !important;
+}
