@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<!--My Name is joe slaugh-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Joe Slaugh Mission 4</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-utilities.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Header and Image-->
+    <h1 class="card-header">Joe Slaugh</h1>
+    <p class="card-subtitle">Pronounced Joe Slaw</p>
+    <img class="figure-img" src="img/PXL_20210818_205756339.MP.jpg" />
+
+    <!--This is a secion about my hopes and dreams-->
+    <div class="card">
+        <h2 class="card-title">IS413 Hopes and dreams</h2>
+        <p class="card-text">
+            I hope to learn more about best practices of web development. I would love to understand more about React
+            and how it differes from front end frameworks that I'm already familair with. To laugh with my friends and cry with my friends
+            as Intex slowly crushes us from without. That we might laugh in the face of our grades and not care. That I might sing praises of
+            glory that is IS 413. How long does this paragraph need to be?
+        </p>
+    </div>
+
+    <br /><br />
+    <!-- this is a section about what job i want after college-->
+    <div class="card">
+        <h2 class="card-title">Job's I want after college</h2>
+        <ul>
+            <li>Full-Stack  Developer</li>
+            <li>Software Developer</li>
+            <li>Solutions Architect</li>
+        </ul>
+    </div>
+
+    <h2>Grade Calculator</h2>
+    <!-- This is a form-->
+    <form class="form">
+        <label for="assignments">Assignments</label><input type="number" id="assignments" name="assignments" value="" min="0" max="100" step="1" />
+        <label for="groupproject">Group Project</label><input type="number" id="groupproject" name="groupproject" value="" min="0" max="100" step="1" />
+        <label for="quizzes">Quizzes</label><input type="number" id="quizzes" name="quizzes" value="" min="0" max="100" step="1" />
+        <label for="midterm">Midterm Exam</label><input type="number" id="midterm" name="midterm" value="" min="0" max="100" step="1" />
+        <label for="final">Final Exam</label><input type="number" id="final" name="final" value="" min="0" max="100" step="1" />
+        <label for="intex">Intex</label><input type="number" id="intex" name="intex" value="" min="0" max="100" step="1" />
+        <button type="button" class="btn-primary" id="formSubmission">Calculate</button>
+    </form>
+    <br />
+    <!--Grade is displayed here using the span-->
+    <p>Your Potential Grade is: <span id="potentialGrade">Not Yet Calculated</span></p>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>
