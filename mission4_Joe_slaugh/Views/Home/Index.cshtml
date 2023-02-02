@@ -2,21 +2,9 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "Home";
 }
-<!DOCTYPE html>
-<!--My Name is joe slaugh-->
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Joe Slaugh Mission 4</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link href="css/StyleSheet.css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap-utilities.css" rel="stylesheet" />
-</head>
-<body>
+
     <!--Header and Image-->
     <h1 class="card-header">Joe Slaugh</h1>
     <p class="card-subtitle">Pronounced Joe Slaw</p>
@@ -44,21 +32,4 @@
         </ul>
     </div>
 
-    <h2>Grade Calculator</h2>
-    <!-- This is a form-->
-    <form class="form">
-        <label for="assignments">Assignments</label><input type="number" id="assignments" name="assignments" value="" min="0" max="100" step="1" />
-        <label for="groupproject">Group Project</label><input type="number" id="groupproject" name="groupproject" value="" min="0" max="100" step="1" />
-        <label for="quizzes">Quizzes</label><input type="number" id="quizzes" name="quizzes" value="" min="0" max="100" step="1" />
-        <label for="midterm">Midterm Exam</label><input type="number" id="midterm" name="midterm" value="" min="0" max="100" step="1" />
-        <label for="final">Final Exam</label><input type="number" id="final" name="final" value="" min="0" max="100" step="1" />
-        <label for="intex">Intex</label><input type="number" id="intex" name="intex" value="" min="0" max="100" step="1" />
-        <button type="button" class="btn-primary" id="formSubmission">Calculate</button>
-    </form>
-    <br />
-    <!--Grade is displayed here using the span-->
-    <p>Your Potential Grade is: <span id="potentialGrade">Not Yet Calculated</span></p>
-    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
-    <script src="js/JavaScript.js"></script>
-</body>
-</html>
+
